@@ -3,5 +3,8 @@
 using namespace std;
 
 int main() {
-	cout<<"Hello command line!";
+	int a, b, c;
+	cin >> a >> b >> c;
+	cout << "Total: " << (a + b + c) << endl;
+	return 0;
 }
